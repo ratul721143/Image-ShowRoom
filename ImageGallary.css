@@ -1,0 +1,16 @@
+.navbar-inverse .navbar-nav > li > a{
+    color:white;
+}
+.navbar-inverse .navbar-brand{
+    color:white;
+}
+.navbar-inverse{
+    color:#2c3e50;
+}
+.jump{
+    margin-top:80px;
+}
+
+.thumpnail img{
+    height:auto;
+}

@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+        <style>
+                body{
+                   width:70%;
+                  
+                   margin: 0 auto;
+               }
+               h1{
+                   font-weight:bolder;
+                   font-size:50px;
+                   margin-left:80px;
+                   border-bottom: 10px solid #bdc3c7;
+                   padding-bottom:20px;
+                   color:green;
+               }
+      
+               label{
+                   font-size:20px;
+                   color:rgb(82, 118, 238);
+               }
+
+               small{
+             color:red;
+         }
+         .side{
+             margin-left:85px;
+             margin-top:20px;}
+        </style>
+    </head>
+    <body>
+            <div class="container">
+                    <h1> <i class="fas fa-sign-in-alt"></i>  Login Form</h1>
+            </div>
+            <form class="side">
+                    <div class="form-group">
+                    
+                            <label for="Username">Username: </label>
+                            <input name="Username" type="text" class="form-control"  minlength="8" title="Username must have atleast 8 charecter with @ or # or $ or % or _ or & and atleast 1 capital letter" required>
+                            <small>* Enter your Username</small>
+                    </div>
+                    <div class="form-group">
+                            <label for="password">Password: </label>
+                            <input name="password" type="password" class="form-control"  pattern=".{8,}" title="Password must have atleast 8 charecter" required>
+                            <small>* enter your password</small>
+                    </div>
+                    <center><button class="btn btn-primary">Login To Our Website</button> &nbsp;&nbsp;<a href="imageGallary.html" class="btn btn-success">Go To the Website Home Page </a></center>
+            </form>
+            
+    </body>
+</html>
